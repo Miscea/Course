@@ -1,8 +1,9 @@
 #include "GrasmElem.h"
 
 GrasmElem::GrasmElem():
-    elems(1)
-{}
+{
+    elems = new vector<Grasm>();
+}
 
 GrasmElem::~GrasmElem()
 {
